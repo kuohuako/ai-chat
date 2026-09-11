@@ -1,0 +1,15 @@
+# 環境變數（含敏感資訊）
+.env
+.env.local
+.env.production
+
+# Netlify 本地快取
+.netlify/
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

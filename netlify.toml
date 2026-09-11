@@ -1,0 +1,11 @@
+ [build]
+    functions = "netlify/functions"
+    publish = "."
+
+  [functions]
+    python_version = "3.10"
+
+  [[redirects]]
+    from = "/api/*"
+    to = "/.netlify/functions/:splat"
+    status = 200
